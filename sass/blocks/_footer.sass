@@ -1,0 +1,99 @@
+.footer
+    padding: 300px 0 30px 0
+    color: #FFFFFF
+    background: url(../../img/footer/bg.jpg) center center / cover no-repeat
+    &__top
+        display: flex
+        align-items: center
+    &__contacts
+        &-item
+            margin-right: 68px
+        &-text
+            display: block
+            color: #B6C197
+            font-size: 16px
+            line-height: 250%
+        &-value
+            display: inline-block
+            margin-top: 8px
+            color: #FFFFFF
+            font-weight: bold
+            font-size: 16px
+            line-height: 250%
+            text-decoration: none
+            transition: color .3s ease
+            &:hover
+                color: #ececec
+    &__address
+        &-text
+            display: block
+            color: #B6C197
+            font-size: 16px
+            line-height: 250%
+        &-value
+            cursor: pointer
+            margin: 8px 0 0 0
+            color: #FFFFFF
+            font-weight: bold
+            font-size: 16px
+            line-height: 250%
+            text-decoration: none
+            transition: color .3s ease
+            &:hover
+                color: #ececec
+    &__middle
+        margin-top: 52px
+        padding: 60px 0
+        border-top: 1px solid #5D6544
+        border-bottom: 1px solid #5D6544
+        display: grid
+        grid-gap: 70px
+        grid-template-columns: repeat(4, 1fr)
+    &__column:last-child
+        position: relative
+        &::before
+            content: ''
+            position: absolute
+            top: 0
+            left: -25%
+            width: 1px
+            height: 100%
+            background: #5D6544
+    &__title
+        font-weight: 600
+        font-size: 16px
+        line-height: 237%
+        text-transform: uppercase
+    &__list
+        margin-top: 21px
+    &__link
+        color: #B6C197
+        font-size: 16px
+        line-height: 250%
+        text-decoration: none
+        transition: color .3s ease
+        &:hover
+            color: #a5af89
+    &__text
+        margin-top: 23px
+        color: #B6C197
+        font-size: 16px
+        line-height: 162%
+    &__mail
+        display: inline-block
+        margin-top: 23px
+        text-decoration: none
+        color: #FFFFFF
+        font-weight: bold
+        font-size: 24px
+        line-height: 158%
+        transition: color .3s ease
+        &:hover
+            color: #ececec
+    &__bottom
+        padding-top: 25px
+        display: flex
+        align-items: center
+        justify-content: space-between
+    &__social
+        margin-top: 24px

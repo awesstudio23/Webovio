@@ -1,0 +1,65 @@
+@media (max-width: 992px)
+    .services
+        &__list
+            gap: 50px
+            grid-template-columns: repeat(2, 1fr)
+        &__subtitle
+            width: auto
+        &__descr
+            width: auto
+            margin: 10px 0 20px 0
+
+    .get-started
+        &__title
+            width: auto
+            font-size: 42px
+
+    .footer
+        &__middle
+            gap: 50px
+            grid-template-columns: repeat(2, 1fr)
+        &__column
+            &:last-child::before
+                display: none
+
+@media (max-width: 768px)
+    .hero
+        &__content
+            width: auto
+        &__title
+            width: auto
+        &__descr
+            width: auto
+
+    .logo
+        img
+            width: 65%
+
+    .services
+        &__title
+            width: auto
+
+    .footer
+        &__list
+            margin-top: 15px
+
+@media (max-width: 576px)
+    .hero
+        &__title
+            font-size: 36px
+
+    .get-started
+        &__title
+            font-size: 36px
+
+    .footer
+        &__middle
+            gap: 40px
+            grid-template-columns: repeat(1, 1fr)
+        &__mail
+            font-size: 20px
+        &__bottom
+            flex-direction: column
+            text-align: center
+        &__copyright
+            margin-top: 20px
